@@ -69,6 +69,8 @@ pub enum Currency {
     BTC,
     #[serde(alias = "eth")]
     ETH,
+    #[serde(alias = "sol")]
+    SOL,
     #[serde(alias = "usd")]
     USD,
     #[serde(alias = "usdt")]
